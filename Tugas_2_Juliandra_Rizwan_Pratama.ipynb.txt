@@ -1,0 +1,57 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "W8Bi4IMhOrFU",
+        "outputId": "0d36b9cb-8771-4d17-ed68-caa741b50eb3"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (3000334037.py, line 11)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_2682/3000334037.py\"\u001b[0;36m, line \u001b[0;32m11\u001b[0m\n\u001b[0;31m    digit pertama : 2\u001b[0m\n\u001b[0m          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ],
+      "source": [
+        "# buatlah program yg outputnya sbb;\n",
+        "nim = \"26241105\"\n",
+        "print(\"nim :\", nim)\n",
+        "print(\"digit pertama :\", nim[0])\n",
+        "print(\"digit kedua :\", nim[1])\n",
+        "print(\"digit ketiga :\", nim[2])\n",
+        "print(\"digit keempat :\", nim[3])\n",
+        "print(\"digit kelima :\", nim[4])\n",
+        "# output\n",
+        "nim : 26241105\n",
+        "digit pertama : 2\n",
+        "digit kedua : 6\n",
+        "digit ketiga : 2\n",
+        "digit keempat : 4\n",
+        "digit kelima : 1"
+      ]
+    }
+  ]
+}
